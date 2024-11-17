@@ -4,7 +4,7 @@
 )
 
 
-CLIPS> (deffunction actualizar-enfermedad (?nombre ?nuevo-nombre ?nuevo-tipo ?nuevos-signos ?nuevos-sintomas)
+(deffunction actualizar-enfermedad (?nombre ?nuevo-nombre ?nuevo-tipo ?nuevos-signos ?nuevos-sintomas)
   (bind ?encontrada FALSE)
   (do-for-all-facts ((?f enfermedad)) TRUE
     (if (eq ?nombre (fact-slot-value ?f nombre)) then
