@@ -1,0 +1,12 @@
+(deffacts enfermedades
+  (enfermedad (nombre "COVID-19") (tipo "viral") (signos fiebre tos dificultad-para-respirar) (sintomas fatiga dolor-de-cabeza dolores-musculares))
+  (enfermedad (nombre "Tuberculosis") (tipo "bacteriana") (signos fiebre pérdida-de-peso sudores-nocturnos) (sintomas fatiga tos dolor-en-el-pecho))
+  (enfermedad (nombre "Influenza") (tipo "viral") (signos fiebre tos dolor-de-garganta) (sintomas fatiga dolores-musculares dolor-de-cabeza))
+  (enfermedad (nombre "Faringitis-Estreptocócica") (tipo "bacteriana") (signos dolor-de-garganta ganglios-linfáticos-inflamados fiebre) (sintomas dolor-de-cabeza náuseas fatiga))
+  (enfermedad (nombre "Neumonía") (tipo "bacteriana") (signos fiebre tos escalofríos) (sintomas dolor-en-el-pecho dificultad-para-respirar fatiga))
+  (enfermedad (nombre "Sarampión") (tipo "viral") (signos fiebre sarpullido conjuntivitis) (sintomas tos secreción-nasal dolor-de-garganta))
+  (enfermedad (nombre "Meningitis") (tipo "bacteriana") (signos fiebre dolor-de-cabeza rigidez-en-el-cuello) (sintomas náuseas sensibilidad-a-la-luz confusión))
+  (enfermedad (nombre "Varicela") (tipo "viral") (signos fiebre sarpullido lesiones-con-ampollas) (sintomas fatiga dolor-de-cabeza pérdida-del-apetito))
+  (enfermedad (nombre "Tos-Ferina") (tipo "bacteriana") (signos tos sonido-sibilante secreción-nasal) (sintomas fatiga vómitos apnea))
+  (enfermedad (nombre "Dengue") (tipo "viral") (signos fiebre sarpullido bajo-recuento-de-plaquetas) (sintomas dolor-de-cabeza dolor-detrás-de-los-ojos dolores-musculares))
+)
